@@ -34,7 +34,7 @@ public class billingModule {
 	static Scanner sc=new Scanner(System.in);
 	public static void main(String args[])throws IOException{
 		boolean f=true,f1=true,f2=true,f3=true,f4=true;
-		int i,m=0,j,numcashier=-1,productcount=-1,billcount=-1;
+		int i,m=0,numcashier=-1,productcount=-1,billcount=-1;
 		Cashier c[]=new Cashier[100];
 		Product p[]=new Product[100];
 		Billing b[]=new Billing[100];
